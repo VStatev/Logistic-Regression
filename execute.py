@@ -2,6 +2,7 @@ import plot
 import logistic_regression as lr
 
 data = lr.load_data('iris_data.csv') # Load the data
+
 plot.scatter_plot(data,['Iris-setosa','Iris-versicolor']) # Scatter plot of the data
 
 X,y = lr.split(data) # Split into data and labels
